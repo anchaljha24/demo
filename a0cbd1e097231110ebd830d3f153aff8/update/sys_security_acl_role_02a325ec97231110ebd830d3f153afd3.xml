@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 12:06:21</sys_created_on>
+        <sys_id>02a325ec97231110ebd830d3f153afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_857813_leave_app_leave_claculator.x_857813_leave_app.leave_claculator_user</sys_name>
+        <sys_package display_value="Leave Application Managemnet" source="x_857813_leave_app">a0cbd1e097231110ebd830d3f153aff8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Application Managemnet">a0cbd1e097231110ebd830d3f153aff8</sys_scope>
+        <sys_security_acl display_value="x_857813_leave_app_leave_claculator">0aa325ec97231110ebd830d3f153afd0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_02a325ec97231110ebd830d3f153afd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 12:06:21</sys_updated_on>
+        <sys_user_role display_value="x_857813_leave_app.leave_claculator_user" name="x_857813_leave_app.leave_claculator_user">f9a36dac97231110ebd830d3f153afeb</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

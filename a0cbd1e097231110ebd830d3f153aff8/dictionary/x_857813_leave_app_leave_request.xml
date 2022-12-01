@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Leave Request" max_length="40" name="x_857813_leave_app_leave_request" sizeclass="0" type="collection">
+        <element label="Accrued" max_length="40" name="accrued" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="nyr" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Not yet Requested" sequence="1" value="nyr"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Requested" sequence="3" value="requested"/>
+            </choice>
+        </element>
+        <element label="Balance" max_length="40" name="balance" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="comments" type="string"/>
+        <element label="Duration" max_length="40" name="duration" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="HalfDate" max_length="40" name="half_date" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="leave_type" choice_table="x_857813_leave_app_leave_bucket" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Taken" max_length="40" name="taken" type="float"/>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="leave_type" table="x_857813_leave_app_leave_claculator" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>leave_type</element>
+            <name>x_857813_leave_app_leave_claculator</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 12:15:13</sys_created_on>
+            <sys_id>c0b5e56097631110ebd830d3f153af9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>leave_type</sys_name>
+            <sys_package display_value="Leave Application Managemnet" source="x_857813_leave_app">a0cbd1e097231110ebd830d3f153aff8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Leave Application Managemnet">a0cbd1e097231110ebd830d3f153aff8</sys_scope>
+            <sys_update_name>sys_choice_x_857813_leave_app_leave_claculator_leave_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 12:15:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Casual Leave</label>
+            <language>en</language>
+            <name>x_857813_leave_app_leave_claculator</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 12:15:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cb5e56097631110ebd830d3f153af9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 12:15:13</sys_updated_on>
+            <value>cl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Earned Leave</label>
+            <language>en</language>
+            <name>x_857813_leave_app_leave_claculator</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 12:15:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4b5e56097631110ebd830d3f153afa0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 12:15:13</sys_updated_on>
+            <value>ed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sick Leave</label>
+            <language>en</language>
+            <name>x_857813_leave_app_leave_claculator</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 12:15:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44b5e56097631110ebd830d3f153afa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 12:15:13</sys_updated_on>
+            <value>sl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WFH</label>
+            <language>en</language>
+            <name>x_857813_leave_app_leave_claculator</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-30 12:15:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0b5e56097631110ebd830d3f153afa2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-30 12:15:13</sys_updated_on>
+            <value>wfh</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
