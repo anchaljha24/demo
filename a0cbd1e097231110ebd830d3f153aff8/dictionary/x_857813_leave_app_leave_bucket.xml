@@ -2,6 +2,8 @@
     <element label="Leave Bucket" max_length="40" name="x_857813_leave_app_leave_bucket" sizeclass="0" type="collection">
         <element label="Accrud" max_length="40" name="accrud" type="float"/>
         <element label="Balance" max_length="40" name="balance" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Demo" max_length="40" name="demo122333" type="string"/>
+        <element label="Demo data" max_length="40" name="demo_data" type="string"/>
         <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
         <element label="Last year Balance" max_length="40" name="last_year_balance" type="float"/>
         <element choice="3" default="cl" label="Leave Type" max_length="40" name="leave_type" type="choice">
